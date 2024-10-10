@@ -10,6 +10,11 @@ interface Transaction {
   thanh_tien: number;
   tt_thanh_toan: string;
   ma_khach_hang: string;
+  ten_khach_hang: string;
+  loai_khach_hang: string;
+  ngay_thanh_toan: string;
+  nhan_vien: string;
+  bien_so_xe: string;
   tt_hoa_don: string;
 }
 

@@ -4,10 +4,6 @@ import {
   uploadFile,
   getTransactions,
 } from "../controllers/home.controller";
-import {
-  validateUpload,
-  validateTransactionQuery,
-} from "../middlewares/homeMiddleware";
 
 class HomeRoutes {
   router: Router;
